@@ -67,23 +67,36 @@ terraform apply
 
 🔐 Step 2: Connect to the VM
 ```bash
-
-
 ssh -i ssh-keys/terraform-azure azureuser@<your-vm-public-ip>
 ```
+
+
 🧰 Step 3: Launch DataHub
 ```bash
-
-
 cd ~/datahub/docker
 docker-compose up -d
 ```
+
+
 🖥️ UI available at:
 ```
 http://<your-vm-public-ip>:9002
 ```
 
-💡 Why This Matters
+
+🧪 Expected Outputs & Results
+Infrastructure provisioned within 5-10 minutes
+
+VM running with Docker containers active (check with docker ps)
+
+Accessible DataHub UI via browser
+
+Metadata scanning and search features functional
+
+Secure SSH and UI access controlled by NSG
+
+
+💡 Why This Project Matters
 Metadata is the foundation of data discovery, quality, and governance.
 
 With this setup, teams can:
@@ -101,6 +114,24 @@ With this setup, teams can:
 💬 “This project taught us how to collaborate across teams, use infrastructure-as-code effectively, and deploy production-grade tools on cloud environments.”
 
 
+🧾 Additional Notes
+Minimum requirements:
+
+-Terraform v1.0+
+
+-Docker v20+
+
+-Azure CLI installed and logged in
+
+-To stop DataHub containers, run:
+```
+docker-compose down
+```
+
+To destroy infrastructure:
+```
+terraform destroy
+```
 
 🏁 Wrap-Up
 ✅ 100% Terraform automated
