@@ -28,11 +28,12 @@ Our mission: **Deploy DataHub** — a modern metadata platform — **on Microsof
 
 ---
 
-## 🏗️ Architecture Diagram
+## 🧱 Architecture Diagram
 
-This diagram shows the infrastructure setup of the DataHub project on Azure, including the virtual network, VM, database, and connections between components.
+Here is the infrastructure architecture diagram for the DataHub Cloud Project:
 
-![Architecture Diagram](https://github.com/user-attachments/assets/68807507-92ee-468e-96aa-77199c7258cf)
+<img src="https://github.com/user-attachments/assets/68807507-92ee-468e-96aa-77199c7258cf" width="600" />
+
 
 ---
 
