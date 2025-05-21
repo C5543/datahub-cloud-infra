@@ -28,6 +28,13 @@ Our mission: **Deploy DataHub** — a modern metadata platform — **on Microsof
 
 ---
 
+## 🏗️ Architecture Diagram
+
+This diagram shows the infrastructure setup of the DataHub project on Azure, including the virtual network, VM, database, and connections between components.
+
+![Architecture Diagram](https://github.com/user-attachments/assets/68807507-92ee-468e-96aa-77199c7258cf)
+
+
 ## ⚙️ Technologies Used
 
 - **Terraform** – Azure infrastructure as code
