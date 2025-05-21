@@ -88,13 +88,14 @@ Metadata is the foundation of data discovery, quality, and governance.
 
 With this setup, teams can:
 
--📊 Scan & explore data assets
+- 📊 Scan & explore data assets
 
--🏷️ Build business glossaries
+- 🏷️ Build business glossaries
 
--🔎 Search metadata relationships
+- 🔎 Search metadata relationships
 
--🔐 Collaborate securely on Azure
+- 🔐 Collaborate securely on Azure
+
 
 🧠 Team Reflection
 💬 “This project taught us how to collaborate across teams, use infrastructure-as-code effectively, and deploy production-grade tools on cloud environments.”
