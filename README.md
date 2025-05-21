@@ -1,6 +1,6 @@
 # datahub-cloud-infra
-```
-markdown
+
+
 
 
 <h1 align="center">☁️ DataHub Cloud Project</h1>
@@ -8,7 +8,7 @@ markdown
   🚀 Cross-Bootcamp Collaboration • Deployed on Azure with Terraform & Docker
 </p>
 
----
+
 
 ## 📌 About the Project
 
