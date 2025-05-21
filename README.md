@@ -87,13 +87,13 @@ http://<your-vm-public-ip>:9002
 🧪 Expected Outputs & Results
 -Infrastructure provisioned within 5-10 minutes
 
--VM running with Docker containers active (check with docker ps)
+- VM running with Docker containers active (check with docker ps)
 
--Accessible DataHub UI via browser
+- Accessible DataHub UI via browser
 
--Metadata scanning and search features functional
+- Metadata scanning and search features functional
 
--Secure SSH and UI access controlled by NSG
+- Secure SSH and UI access controlled by NSG
 
 
 💡 Why This Project Matters
