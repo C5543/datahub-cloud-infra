@@ -68,7 +68,7 @@ http://<your-vm-public-ip>:9002
 📁 Folder Structure
 perl
 
-
+```
 datahub-cloud-project/
 │
 ├── main.tf                  # Terraform config (VM, VNet, DB)
@@ -78,6 +78,7 @@ datahub-cloud-project/
 │   └── terraform-azure.pub  # Public SSH key
 ├── .gitignore               # Ignore sensitive files and folders
 └── README.md                # Project documentation
+```
 💡 Why This Matters
 Metadata is the foundation of data discovery, quality, and governance.
 
