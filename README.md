@@ -45,22 +45,26 @@ Our mission: **Deploy DataHub** — a modern metadata platform — **on Microsof
 ```bash
 terraform init
 terraform apply
-
+```
 🔐 Requires a valid SSH key in ssh-keys/terraform-azure.pub
 
 🔐 Step 2: Connect to the VM
 ```bash
-نسخ
-تحرير
+
+
 ssh -i ssh-keys/terraform-azure azureuser@<your-vm-public-ip>
+```
 🧰 Step 3: Launch DataHub
 ```bash
 
 
 cd ~/datahub/docker
 docker-compose up -d
-🖥️ UI available at: http://<your-vm-public-ip>:9002
-
+```
+🖥️ UI available at:
+```
+http://<your-vm-public-ip>:9002
+```
 📁 Folder Structure
 perl
 
