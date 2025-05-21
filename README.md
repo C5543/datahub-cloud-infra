@@ -45,3 +45,61 @@ Our mission: **Deploy DataHub** — a modern metadata platform — **on Microsof
 ```bash
 terraform init
 terraform apply
+
+🔐 Requires a valid SSH key in ssh-keys/terraform-azure.pub
+
+🔐 Step 2: Connect to the VM
+```bash
+نسخ
+تحرير
+ssh -i ssh-keys/terraform-azure azureuser@<your-vm-public-ip>
+🧰 Step 3: Launch DataHub
+```bash
+
+
+cd ~/datahub/docker
+docker-compose up -d
+🖥️ UI available at: http://<your-vm-public-ip>:9002
+
+📁 Folder Structure
+perl
+
+
+datahub-cloud-project/
+│
+├── main.tf                  # Terraform config (VM, VNet, DB)
+├── script/
+│   └── customdata.sh        # Auto-install script (cloud-init)
+├── ssh-keys/
+│   └── terraform-azure.pub  # Public SSH key
+├── .gitignore               # Ignore sensitive files and folders
+└── README.md                # Project documentation
+💡 Why This Matters
+Metadata is the foundation of data discovery, quality, and governance.
+
+With this setup, teams can:
+
+📊 Scan & explore data assets
+
+🏷️ Build business glossaries
+
+🔎 Search metadata relationships
+
+🔐 Collaborate securely on Azure
+
+🧠 Team Reflection
+💬 “This project taught us how to collaborate across teams, use infrastructure-as-code effectively, and deploy production-grade tools on cloud environments.”
+
+🤝 Contributors
+👤 You – Cloud Engineering Lead
+
+👥 Cross Bootcamp Team – Data Governance & DevOps
+
+🏁 Wrap-Up
+✅ 100% Terraform automated
+
+✅ Secure access with SSH + NSG
+
+✅ Modular & scalable
+
+✅ Perfect for enterprise adoption
