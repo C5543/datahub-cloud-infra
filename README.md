@@ -133,6 +133,24 @@ To destroy infrastructure:
 terraform destroy
 ```
 
+---
+
+### 🌐 Useful Links for Tools & Installation
+
+- **Terraform:**  
+  [https://www.terraform.io/downloads](https://www.terraform.io/downloads)  
+  Official documentation and installation instructions.
+
+- **Docker:**  
+  [https://docs.docker.com/get-docker/](https://docs.docker.com/get-docker/)  
+  Steps to install Docker on various platforms.
+
+- **Azure CLI:**  
+  [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)  
+  Installation and usage guide.
+```
+
+
 🏁 Wrap-Up
 ✅ 100% Terraform automated
 
