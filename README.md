@@ -34,6 +34,14 @@ This diagram shows the infrastructure setup of the DataHub project on Azure, inc
 
 ![Architecture Diagram](https://github.com/user-attachments/assets/68807507-92ee-468e-96aa-77199c7258cf)
 
+---
+
+## 🖥️ DataHub UI Screenshot
+
+After accessing the VM via its public IP, here is a screenshot of the DataHub user interface:
+
+![DataHub UI](https://github.com/user-attachments/assets/e9dca1d1-5637-4013-b52a-2d47e3387cef)
+
 
 ## ⚙️ Technologies Used
 
