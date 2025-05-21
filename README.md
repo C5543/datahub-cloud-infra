@@ -7,9 +7,9 @@
 
 ## 📌 About the Project
 
-This project is part of a **Cross-Bootcamp Collaboration** between:
-- 🧠 **Data Governance Team** (Data Consumers)
-- 🛠️ **Cloud Engineering Team** (Infra & Automation)
+This project is part of a **Cross-Bootcamp Collaboration** between:  
+- 🧠 **Data Governance Team** (Data Consumers)  
+- 🛠️ **Cloud Engineering Team** (Infra & Automation)  
 
 Our mission: **Deploy DataHub** — a modern metadata platform — **on Microsoft Azure** using infrastructure as code and automation tools.
 
@@ -17,14 +17,14 @@ Our mission: **Deploy DataHub** — a modern metadata platform — **on Microsof
 
 ## 🧱 Infrastructure Overview
 
-| Component        | Description                                 |
-|------------------|---------------------------------------------|
+| Component        | Description                                  |
+|------------------|----------------------------------------------|
 | 🌐 VNet + Subnet | Secure, isolated virtual network             |
 | 🔒 NSG           | Allows SSH (22) & DataHub UI (9002) only     |
-| 🖥️ Ubuntu VM     | Provisioned with Docker & cloud-init         |
-| 🐳 Docker        | Used to deploy DataHub components            |
-| 🛢️ PostgreSQL    | Azure Flexible Server (metadata storage)     |
-| 📦 Storage       | Optional: persistent storage (Blob/File)     |
+| 🖥️ Ubuntu VM     | Provisioned with Docker & cloud-init          |
+| 🐳 Docker        | Used to deploy DataHub components             |
+| 🛢️ PostgreSQL    | Azure Flexible Server (metadata storage)      |
+| 📦 Storage       | Optional: persistent storage (Blob/File)      |
 
 ---
 
@@ -34,7 +34,6 @@ Here is the infrastructure architecture diagram for the DataHub Cloud Project:
 
 <img src="https://github.com/user-attachments/assets/68807507-92ee-468e-96aa-77199c7258cf" width="600" />
 
-
 ---
 
 ## 🖥️ DataHub UI Screenshot
@@ -43,15 +42,15 @@ After accessing the VM via its public IP, here is a screenshot of the DataHub us
 
 <img src="https://github.com/user-attachments/assets/e9dca1d1-5637-4013-b52a-2d47e3387cef" width="400" />
 
-
+---
 
 ## ⚙️ Technologies Used
 
-- **Terraform** – Azure infrastructure as code
-- **Docker & Compose** – Containerized DataHub services
-- **Azure CLI** – Deployment and management
-- **cloud-init** – VM bootstrap automation
-- **GitHub** – Version control & collaboration
+- **Terraform** – Azure infrastructure as code  
+- **Docker & Compose** – Containerized DataHub services  
+- **Azure CLI** – Deployment and management  
+- **cloud-init** – VM bootstrap automation  
+- **GitHub** – Version control & collaboration  
 
 ---
 
@@ -62,6 +61,7 @@ After accessing the VM via its public IP, here is a screenshot of the DataHub us
 ```bash
 terraform init
 terraform apply
+
 ```
 🔐 Requires a valid SSH key in ssh-keys/terraform-azure.pub
 
