@@ -133,6 +133,16 @@ To destroy infrastructure:
 terraform destroy
 ```
 
+
+🏁 Wrap-Up
+✅ 100% Terraform automated
+
+✅ Secure access with SSH + NSG
+
+✅ Modular & scalable
+
+✅ Perfect for enterprise adoption
+
 ---
 
 ### 🌐 Useful Links for Tools & Installation
@@ -149,13 +159,3 @@ terraform destroy
   [https://learn.microsoft.com/en-us/cli/azure/install-azure-cli](https://learn.microsoft.com/en-us/cli/azure/install-azure-cli)  
   Installation and usage guide.
 ```
-
-
-🏁 Wrap-Up
-✅ 100% Terraform automated
-
-✅ Secure access with SSH + NSG
-
-✅ Modular & scalable
-
-✅ Perfect for enterprise adoption
