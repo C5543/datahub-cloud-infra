@@ -17,13 +17,14 @@ Our mission: **Deploy DataHub** — a modern metadata platform — **on Microsof
 
 ## 🧱 Infrastructure Components
 ```Markdown
-| Component         | Description                                         |
-|------------------|-----------------------------------------------------|
-| 🌐 Virtual Network | Isolated network environment for the deployment     |
-| 🔒 NSG             | Network Security Group – allows SSH & port 9002     |
-| 🖥️ Linux VM         | Hosts Docker and DataHub services                   |
-| 🐳 Docker Compose  | Used to deploy the full DataHub stack               |
-| 🛢️ PostgreSQL DB    | Azure Flexible Server as metadata store            |
+Component          : Description
+-----------------------------------------------
+🌐 Virtual Network : Isolated network for resources
+🔒 NSG             : Allows SSH (22) + DataHub UI (9002)
+🖥️  Linux VM        : Runs Docker & hosts DataHub
+🐳 Docker Compose  : Deploys all DataHub containers
+🛢️  PostgreSQL DB   : Flexible server used as metadata store
+
 ```
 
 ---
